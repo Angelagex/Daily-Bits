@@ -1,0 +1,123 @@
+body {
+    background-color: #16161A;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 5vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    margin-bottom: 4vh;
+}
+.container2 {
+    padding-left: 13vw;
+    padding-right: 13vw;
+    margin-top: 2vh;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #FFFFFE;
+}
+.flex h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 0.0015em;
+    color: #FFFFFE;
+    margin: 0;
+    text-indent: 1vw;
+}
+#sectitle {
+    justify-content: flex-start;
+}
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFE;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFE;
+}
+.flex2 h2 {
+    margin-top: 1vh;
+}
+.html {
+    width: 80%;
+    margin-top: 4vh;
+}
+.html h5 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 2vh;
+    margin-bottom: 0;
+}
+.html p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 0.5vh;
+}
+.html a {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #EF4565;
+}
+.html a:hover {
+    color: #96283c;
+}
+
+/*footer*/
+#footer {
+    background: #232E35;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    position: absolute;
+    width: 100%;
+    height: 69px;
+    left: 0px;
+    bottom: 0px;
+    margin-top: 4vh;
+}
+.footitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footitem p{
+    margin: 0;
+    color: #FFFFFE;
+    font-size: 14px;
+    line-height: 19px;
+}
+#perfildiv p {
+    color: #2CB67D;
+}

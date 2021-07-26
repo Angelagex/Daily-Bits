@@ -1,0 +1,116 @@
+body {
+    background-color: #16161A;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 5vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    margin-bottom: 4vh;
+}
+.container2 {
+    margin-top: 2vh;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    color: #FFFFFE;
+}
+.flex h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 0.0015em;
+    color: #FFFFFE;
+    margin: 0;
+    text-indent: 1vw;
+}
+#sectitle {
+    justify-content: flex-start;
+}
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid #94A1B2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 3vh;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.005em;
+}
+.flex2 input {
+    width: 12vw;
+    background: none;
+    border: none;
+    margin-left: auto;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFE;
+    text-align: center;
+}
+.flex2 p {
+    text-indent: 2vw;
+}
+
+#respuestascorrectas {
+    color: #2CB67D;
+}
+
+#respuestasincorrectas {
+    color: #EF4565;
+}
+
+
+/*footer*/
+#footer {
+    background: #232E35;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    position: absolute;
+    width: 100%;
+    height: 69px;
+    left: 0px;
+    bottom: 0px;
+    margin-top: 4vh;
+}
+.footitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footitem p{
+    margin: 0;
+    color: #FFFFFE;
+    font-size: 14px;
+    line-height: 19px;
+}
+#metricsdiv p {
+    color: #2CB67D;
+}

@@ -1,0 +1,56 @@
+body {
+    background-color: #16161A;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Animation*/
+    animation-duration: 2.5s;           
+    animation-iteration-count: infinite;
+    animation-direction: normal;        
+    animation-name: bgcolor;              
+        
+}
+
+@keyframes bgcolor {
+    0%, 100% {              /* Defines the properties at these frames */
+        transform: rotate(135deg), scaleX(120%);
+        transition: all ease 0.3s;
+    }
+
+    50% {                   /* Defines the properties at these frames */
+        background: #5538b6;
+        position: absolute;
+        transition: none;
+        cursor: pointer;
+    }
+}
+
+#logo{
+    animation-duration: 2.5s;           
+    animation-iteration-count: infinite;
+    animation-direction: normal;        
+    animation-name: color;    
+}
+
+@keyframes color {
+    0%, 100% {              /* Defines the properties at these frames */
+        
+    }
+
+    50% {                   /* Defines the properties at these frames */
+        filter: opacity(.0);
+    }
+}
+
+#logodiv {
+    background-color: #6B47DC;
+    margin-left: auto;
+}

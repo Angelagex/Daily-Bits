@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="media/Logo-Daily.ico" type="image/ico" />
+    <link rel="stylesheet" href="./styles/question3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Rubik&family=Nunito&display=swap" rel="stylesheet">   
+    <title>Daily Bits</title>
+</head>
+<body>
+    <form class="container">
+        <div class="flex" id="sectitle">
+            <a href="#" type="button" id="salida"><img src="media/X.svg" alt=""></a>
+            <img id="barrita" class="progress" src="media/Progress=0.png" alt="">
+            <img src="media/vidas.png" alt="">
+            <input type="number" value="2" id="vidas" readonly>
+        </div>
+        <div class="flex" id="pregunta">
+            <div>
+                <h2 id="enunciado"></h2>
+            </div>
+        </div>
+        <div class="flex container2">
+            <label class="flex2 custom-radio-checkbox"> 
+                <img class="imagenes" id="imagen1" src="" alt="">
+                <p id="opcion1"></p>
+                <!--Input oculto-->
+                <input class="custom-radio-checkbox__input" type="radio" name="answer" id="R1">
+            </label>
+            <label class="flex2 custom-radio-checkbox"> 
+                <img class="imagenes" id="imagen2" src="" alt="">
+                <p id="opcion2"></p>
+                <!--Input oculto-->
+                <input class="custom-radio-checkbox__input" type="radio" name="answer" id="R2">
+            </label>
+            <label class="flex2 custom-radio-checkbox"> 
+                <img class="imagenes" id="imagen3" src="" alt="">
+                <p id="opcion3"></p>
+                <!--Input oculto-->
+                <input class="custom-radio-checkbox__input" type="radio" name="answer" id="R3">
+            </label>
+            <label class="flex2 custom-radio-checkbox"> 
+                <img class="imagenes" id="imagen4" src="" alt="">
+                <p id="opcion4"></p>
+                <!--Input oculto-->
+                <input class="custom-radio-checkbox__input" type="radio" name="answer" id="R4">
+            </label>
+        </div>
+        <button type="submit" id="comprobar">COMPROBAR</button>
+    </form>
+    <div class="respondio" id="respondiobien">
+        <form class="feedback" id="correcta">
+            <p>¡Buen Trabajo!</p>
+            <a href="#" class="continuar" id="contcorrecta">CONTINUAR</a>
+        </form>
+    </div>
+    <div class="respondio" id="respondiomal">
+        <form class="feedback" id="incorrecta">
+            <p id="respuesta"></p>
+            <a type= "button" href="#" class="continuar" id="contincorrecta">CONTINUAR</a>
+        </form>
+    </div>
+    <div class="back" id="pantallasalir">
+        <form class=feedback id="salir">
+            <p>¿Seguro que deseas salir?</p>
+            <a type="button" href="#" class="continuar" id="volver">Volver</a><a type="button" href="#" class="continuar" id="exit">Salir</a>
+        </form>
+    </div>
+    <div class="respondio" id="final">
+        <form class="feedback" id="finalregresar">
+            <h3>¡Buen Trabajo! Has completado esta sección</h3>
+            <p>Respuestas correctas</p> <input class="respuestasfinales" value="3" id="respuestascorrectas" type="number" readonly>
+            <p>Respuestas incorrectas</p> <input class="respuestasfinales" value="3" id="respuestasincorrectas" type="number" readonly>
+            <p>Tiempo empleado(minutos)</p> <input class="respuestasfinales" value="3" id="tiempoempleado" type="number" readonly>
+            <a href="#" class="continuar" id="finalizarseccion">FINALIZAR</a>
+        </form>
+    </div>
+    <div class="respondio" id="malfinal">
+        <form class="feedback" id="malfinalregresar">
+            <h3>¡Que Mal! ¡Te has quedado sin vidas!</h3>
+            <a href="#" class="continuar" id="malfinalizarseccion">SALIR</a>
+        </form>
+    </div>
+    <script type="module" src="scripts/question3.js"></script>
+    <script type="module" src="db/html.js"></script>
+    <script type="module" src="db/css.js"></script>
+    <script type="module" src="db/js.js"></script>
+</body>
+</html>

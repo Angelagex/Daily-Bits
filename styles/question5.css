@@ -1,0 +1,288 @@
+body {
+    background-color: #16161A;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 5vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    margin-bottom: 4vh;
+}
+.container2 {
+    margin-top: 11vh;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #FFFFFE;
+}
+.flex input {
+    width: 5vw;
+    background: none;
+    border: none;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFE;
+    text-align: center;
+    margin-left: -1vw;
+}
+.progress {
+    margin-right: 4vw;
+    margin-left: 4vw;
+}
+#sectitle {
+    justify-content: flex-start;
+}
+#salida {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background: #232E35;
+    border: 2px solid #FFFFFE;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 3vh;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
+
+.flex2 input {
+    width: 5vw;
+    background: none;
+    border: none;
+    margin-left: auto;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFE;
+    text-align: center;
+}
+.flex2 p {
+    text-indent: 3vw;
+}
+
+#pregunta div {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    width: 70%;
+    margin-left: 4vw;
+}
+
+#pregunta {
+    margin-top: 4vh;
+}
+
+.btns {
+    margin-left: auto;
+    margin-right: 3vw;
+}
+
+#comprobar {
+    width: 100%;
+    padding: 2.5vh;
+    background: #6B47DC;
+    border-radius: 16px;
+    border: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.0125em;
+    color: #FFFFFE;
+}
+
+
+/* Modificador para dar la imagen de radio */
+.custom-radio-checkbox__show--radio {
+    background-image: url(../media/btnsolo.svg);
+}
+
+/* Oculta input original */
+.custom-radio-checkbox > .custom-radio-checkbox__input {
+    display: none;
+}
+
+/* Radio personalizado usando <span> */
+.custom-radio-checkbox > .custom-radio-checkbox__show {
+    display: inline-block;
+    margin-left: auto;
+    width: 25px;
+    height: 25px;
+    margin-right: 1rem;
+    background-size: cover;
+}
+
+/* Cambia el radio personalizado cuando es pulsado */
+.custom-radio-checkbox > .custom-radio-checkbox__input:checked + .custom-radio-checkbox__show--radio {
+    background-image: url(../media/btntrue.svg);
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+    left: 0px;
+    bottom: 0px;
+    background: #ACFFCF;
+}
+.continuar {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.0125em;
+    color: #FFFFFE;
+    background: #2CB67D;
+    border-radius: 16px;
+    width: 80%;
+    padding: 2.5vh;
+    text-decoration: none;
+}
+
+#incorrecta {
+    background: #F9CFD7;
+    height: 24vh;
+}
+#incorrecta p {
+    align-self: flex-start;
+    margin-left: 4vw;
+    color: #B81E3B;
+}
+#contincorrecta {
+    background: #EF4565;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    background: #bfa7aa48;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+#salir {
+    left: auto;
+    bottom: auto;
+    position: relative;
+    width: 95%;
+    border-radius: 10px;
+    height: auto;
+    background: #2a2a31;
+}
+
+#salir p {
+    color: #FFFFFE;
+    font-weight: bold;
+}
+#volver {
+    padding: 2vh;
+}
+#exit {
+    padding: 2vh;
+    background: #EF4565;
+    margin: 2vh 0
+}
+.respondio {
+    width: 100%;
+    height: 100%;
+    background: #bfa7aa00;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+#finalregresar {
+    bottom: auto;
+    left: auto;
+    height: auto;
+}
+#finalregresar p {
+    font-weight: bold;
+}
+#finalregresar h3 {
+    text-align: center;
+    font-weight: bolder;
+}
+#finalizarseccion {
+    margin-bottom: 4vh;
+    margin-top: 2vh;
+}
+.respuestasfinales {
+    width: 5vw;
+    background: none;
+    border: none;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: -2vh;
+}
+
+#malfinalregresar {
+    bottom: auto;
+    left: auto;
+    height: auto;
+    background: #F9CFD7;
+}
+#malfinalregresar h3 {
+    text-align: center;
+    font-weight: bolder;
+    color: #B81E3B;
+}
+#malfinalizarseccion {
+    margin-bottom: 4vh;
+    margin-top: 2vh;
+    background: #EF4565;
+}

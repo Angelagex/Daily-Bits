@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="media/Logo-Daily.ico" type="image/ico" />
+    <link rel="stylesheet" href="./styles/metrics.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap" rel="stylesheet">   
+    <title>Daily Bits</title>
+</head>
+<body>
+    <div class="container">
+        <div class="flex" id="sectitle">
+            <h2>Estadísticas</h2>
+            <p>Los últimos 7 días <img src="media/flecha.svg" alt=""></p>
+        </div>
+        <div class="flex container2">
+            <div class="flex2"> 
+                <img src="media/horas.svg" alt="">
+                <p>Tiempo de estudio (horas)</p>
+                <input type="number readonly" value="1" id="horasjugadas">
+            </div>
+            <div class="flex2"> 
+                <img src="media/respuestas.svg" alt="">
+                <p>Respuestas contestadas</p>
+                <input type="number readonly" value="40" id="totalcontestadas">
+            </div>
+            <div class="flex2"> 
+                <img src="media/respuestas.svg" alt="">
+                <p>Respuestas correctas</p>
+                <input type="number readonly" value="20" id="respuestascorrectas">
+            </div>
+            <div class="flex2"> 
+                <img src="media/respuestas.svg" alt="">
+                <p>Respuestas incorrectas</p>
+                <input type="number readonly" value="20" id="respuestasincorrectas">
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <a href="http://127.0.0.1:5500/Daily%20Bits/index.html" class="footitem" id="homediv">
+            <img src="media/home0.svg" id="homebtn" alt="">
+            <p>Home</p>
+        </a>
+        <a href="http://127.0.0.1:5500/Daily%20Bits/metrics.html" class="footitem" id="metricsdiv">
+            <img src="media/metrics1.svg" id="metricsbtn" alt="">
+            <p>Estadísticas</p>
+        </a>
+        <a href="http://127.0.0.1:5500/Daily%20Bits/profile.html" class="footitem" id="perfildiv">
+            <img src="media/perfil0.svg" id="perfilbtn" alt="">
+            <p>Perfil</p>
+        </a>
+    </footer>
+    <script src="./scripts/metrics.js"></script>
+</body>
+</html>
