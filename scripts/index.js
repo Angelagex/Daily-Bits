@@ -22,19 +22,19 @@ document.getElementById("html").addEventListener("click", function() {
     let question = random();
     questions.splice(question-1, 1);
     setLocal(question, questions, section);
-    location.href="http://127.0.0.1:5500/Daily%20Bits/question" + question + ".html";
+    location.href="https://angelagex.github.io/Daily-Bits/question" + question + ".html";
 });
 document.getElementById("css").addEventListener("click", function() {
     section = 2;
     let question = random();
     questions.splice(question-1, 1);
     setLocal(question, questions, section);
-    location.href="http://127.0.0.1:5500/Daily%20Bits/question" + question + ".html";
+    location.href="https://angelagex.github.io/Daily-Bits/question" + question + ".html";
 });
 document.getElementById("js").addEventListener("click", function() {
     section = 3;
     let question = random();
     questions.splice(question-1, 1);
     setLocal(question, questions, section);
-    location.href="http://127.0.0.1:5500/Daily%20Bits/question" + question + ".html";
+    location.href="https://angelagex.github.io/Daily-Bits/question" + question + ".html";
 });
