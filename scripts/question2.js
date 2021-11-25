@@ -112,16 +112,16 @@ let exit = document.getElementById("exit");
 
 ganastebtn.addEventListener("click", function(e){
   e.preventDefault();
-  location.href="http://127.0.0.1:5500/Daily%20Bits/index.html";
+  location.href="https://angelagex.github.io/Daily-Bits/index.html";
 })
 
 perdistebtn.addEventListener("click", function(e){
   e.preventDefault();
-  location.href="http://127.0.0.1:5500/Daily%20Bits/index.html";
+  location.href="https://angelagex.github.io/Daily-Bits/index.html";
 })
 
 exit.addEventListener("click", function (e){
-  location.href="http://127.0.0.1:5500/Daily%20Bits/index.html";
+  location.href="https://angelagex.github.io/Daily-Bits/index.html";
 })
 
 salidabtn.addEventListener("click", function(e){
@@ -215,12 +215,12 @@ function generarPregunta(arr) {
   if (lngt==1){
     let pregunta = arr.splice(0,1);
     localStorage.setItem("questions", arr);
-    location.href="http://127.0.0.1:5500/Daily%20Bits/question" + pregunta + ".html";;
+    location.href="https://angelagex.github.io/Daily-Bits/question" + pregunta + ".html";;
   } else {
     let random = Math.floor(Math.random() * lngt);
     let pregunta = arr.splice(random, 1);
     localStorage.setItem("questions", arr);
-    location.href="http://127.0.0.1:5500/Daily%20Bits/question" + pregunta + ".html";;
+    location.href="https://angelagex.github.io/Daily-Bits/question" + pregunta + ".html";;
   }
 }
 
